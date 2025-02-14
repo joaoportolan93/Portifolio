@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+</head>
+<body>
+    <div id="spotlight"></div>
+    <div class="spotlight-cursor"></div>
+    <nav class="main-nav">
+        <div class="logo">PORTFOLIO</div>
+        <div class="menu">
+            <a href="#about" class="menu-item">About</a>
+            <a href="#services" class="menu-item">Services</a>
+            <a href="#work" class="menu-item">Selected Work</a>
+            <a href="#contact" class="menu-item">Contact</a>
+        </div>
+    </nav>
+
+    <div class="swiper-container main-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" data-category="UI/UX">
+                <div class="slide-content">
+                    <span class="category">Full Stack Developer <span class="hidden-text">(and part-time coffee enthusiast)</span></span>
+                    <h2 class="animate-text">
+                        <span class="text-mask">
+                            <span class="text-serious">Hi! I'm [Your Name]</span>
+                            <span class="text-funny">Just another coffee-powered developer</span>
+                        </span>
+                    </h2>
+                    <p class="animate-text">
+                        <span class="text-mask">
+                            <span class="text-serious">Transforming ideas into code since [year]</span>
+                            <span class="text-funny">Turning caffeine into code since [year]</span>
+                        </span>
+                    </p>
+                    <div class="cta-container">
+                        <a href="#work" class="cta-button">View Work <span class="hidden-text">(if you dare)</span></a>
+                        <a href="#contact" class="cta-button outline">Contact Me <span class="hidden-text">(I don't bite)</span></a>
+                    </div>
+                </div>
+                <div class="slide-image" style="background-image: url('https://picsum.photos/1920/1080')"></div>
+                <div class="overlay"></div>
+            </div>
+
+            <div class="swiper-slide" data-category="Branding">
+                <div class="slide-content">
+                    <span class="category">Especial Project</span>
+                    <h2 class="animate-text">App for (a)remarkable dreams</h2>
+                    <p class="animate-text">Maybe the idea for a perfect program comes in a dream, you never know ¯\_(ツ)_/¯</p>
+                    <div class="cta-container">
+                        <a href="#" class="cta-button">View Project</a>
+                    </div>
+                </div>
+                <div class="slide-image" style="background-image: url('https://picsum.photos/1920/1081')"></div>
+                <div class="overlay"></div>
+            </div>
+
+            <div class="swiper-slide" data-category="Development">
+                <div class="slide-content">
+                    <span class="category">Featured Project</span>
+                    <h2 class="animate-text">Foody App</h2>
+                    <p class="animate-text">UX Design & Development</p>
+                    <div class="cta-container">
+                        <a href="#" class="cta-button">View Project</a>
+                    </div>
+                </div>
+                <div class="slide-image" style="background-image: url('https://picsum.photos/1920/1082')"></div>
+                <div class="overlay"></div>
+            </div>
+        </div>
+
+        <div class="slide-navigation">
+            <div class="swiper-pagination"></div>
+            <div class="slide-arrows">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <a href="#" class="social-link">Instagram</a>
+            <a href="#" class="social-link">LinkedIn</a>
+            <a href="#" class="social-link">GitHub</a>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
